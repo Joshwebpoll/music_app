@@ -408,12 +408,14 @@ const styles = StyleSheet.create({
     color: "#ffffff",
     fontSize: 32,
     fontWeight: "bold",
+    fontFamily: "MontBold",
     textAlign: "center",
   },
   headerSubtitle: {
     color: "rgba(255,255,255,0.7)",
     fontSize: 16,
     marginTop: 5,
+    fontFamily: "MontMed",
   },
   addButton: {
     marginBottom: 20,
@@ -433,6 +435,7 @@ const styles = StyleSheet.create({
     color: "#ffffff",
     fontSize: 16,
     fontWeight: "600",
+    fontFamily: "MontMed",
   },
   playlist: {
     flex: 1,
@@ -472,10 +475,12 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "600",
     marginBottom: 4,
+    fontFamily: "MontMed",
   },
   songArtist: {
     color: "rgba(255,255,255,0.7)",
     fontSize: 14,
+    fontFamily: "MontMed",
   },
   songDuration: {
     marginLeft: 15,
@@ -483,6 +488,7 @@ const styles = StyleSheet.create({
   durationText: {
     color: "rgba(255,255,255,0.6)",
     fontSize: 12,
+    fontFamily: "MontMed",
   },
   playingIndicator: {
     position: "absolute",
@@ -527,11 +533,13 @@ const styles = StyleSheet.create({
     color: "#ffffff",
     fontSize: 18,
     fontWeight: "bold",
+    fontFamily: "MontBold",
   },
   playerHeaderTitle: {
     color: "#ffffff",
     fontSize: 18,
     fontWeight: "600",
+    fontFamily: "MontMed",
   },
   placeholder: {
     width: 40,
@@ -575,11 +583,13 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
     marginBottom: 8,
+    fontFamily: "MontBold",
   },
   currentSongArtist: {
     color: "rgba(255,255,255,0.8)",
     fontSize: 18,
     textAlign: "center",
+    fontFamily: "MontMed",
   },
   progressContainer: {
     flexDirection: "row",
@@ -591,6 +601,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     minWidth: 45,
     textAlign: "center",
+    fontFamily: "MontMed",
   },
   progressSlider: {
     flex: 1,
@@ -620,6 +631,7 @@ const styles = StyleSheet.create({
   controlIcon: {
     color: "#ffffff",
     fontSize: 24,
+    fontFamily: "MontMed",
   },
   playButton: {
     width: 80,
@@ -643,5 +655,6 @@ const styles = StyleSheet.create({
     color: "#2c3e50",
     fontSize: 32,
     fontWeight: "bold",
+    fontFamily: "MontBold",
   },
 });
