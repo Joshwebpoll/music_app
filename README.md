@@ -6,9 +6,6 @@ A cross-platform music player built with **React Native** and **Expo**, featurin
 
 - 🎼 **Play music** from device storage or online sources
 - 📂 **Browse & load local songs** from device
-- 🌐 **Stream & cache online songs** for offline playback
-- ❤️ **Favorites management** (store locally)
-- 🔍 **Search functionality** to quickly find songs
 - 🎚 **Seek & volume control** with slider
 - 📱 **Cross-platform support** (Android & iOS)
 - 🌙 **Background audio playback** support
