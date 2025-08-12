@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# 🎵 React Native Expo Music Player
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A cross-platform music player built with **React Native** and **Expo**, featuring background playback, local & online song loading, caching, favorites management, and a sleek UI.
 
-## Get started
+## ✨ Features
 
-1. Install dependencies
+- 🎼 **Play music** from device storage or online sources
+- 📂 **Browse & load local songs** from device
+- 🌐 **Stream & cache online songs** for offline playback
+- ❤️ **Favorites management** (store locally)
+- 🔍 **Search functionality** to quickly find songs
+- 🎚 **Seek & volume control** with slider
+- 📱 **Cross-platform support** (Android & iOS)
+- 🌙 **Background audio playback** support
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🛠 Tech Stack
 
-   ```bash
-   npx expo start
-   ```
+- **React Native** (UI framework)
+- **Expo** (development and build platform)
+- **expo-av** (audio playback)
+- **expo-media-library** (local music access)
+- **@react-native-community/slider** (seek bar)
+- **AsyncStorage / Secure Storage** (favorites & cache persistence)
+- **Axios** (fetching songs from APIs)
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📦 Installation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### 1️⃣ Clone the repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/yourusername/music_app.git
+cd music-player
+
+Install dependencies
+npm install
+# or
+yarn install
+
+Start the development server
+npx expo start
+
+
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
